@@ -2,7 +2,7 @@ const categoryBar = document.getElementById("category-bar");
 const menuItemsContainer = document.getElementById("menu-items");
 
 // === CONFIG: Your Google Sheet CSV link ===
-const sheetCSV = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/gviz/tq?tqx=out:csv";
+const sheetCSV = "https://docs.google.com/spreadsheets/d/1a3APieCKpAgjnEmihwAT_IkfEGqwlGUdP9nMEUTID88/edit?gid=0#gid=0/gviz/tq?tqx=out:csv";
 
 // Fetch and parse CSV
 fetch(sheetCSV)
@@ -66,4 +66,5 @@ function displayMenuItems(menuData, category) {
         menuItemsContainer.appendChild(itemDiv);
     });
 }
+
 
