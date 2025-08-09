@@ -36,8 +36,9 @@ const menuData = {
         { name: "Green Tea", price: "$2.00", ingredients: "Freshly brewed green tea" },
         { name: "Chai Latte", price: "$3.00", ingredients: "Black tea, spices, milk" },
         { name: "Green Tea", price: "$2.00", ingredients: "Freshly brewed green tea" },
-        { name: "Chai Latte", price: "$3.00", ingredients: "Black tea, spices, milk" },
-    ]
+        { name: "Chai Latte", price: "$3.00", ingredients: "Black tea, spices, milk" }
+    ],
 };
+
 
 
